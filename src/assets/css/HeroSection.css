@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Panchang-Variable";
+  src: url("../fonts/Panchang-Bold.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Panchang-Variable";
+}
+h2 {
+  font-family: "Panchang-Variable";
+  font-size: 34px;
+}
+.hero-section {
+  background-color: #e8e8ea;
+  margin: 60px 0;
+  max-width: 1440px;
+  height: auto;
+}
+
+.custom-size {
+  height: 500px;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-family: "Panchang-Variable";
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+}

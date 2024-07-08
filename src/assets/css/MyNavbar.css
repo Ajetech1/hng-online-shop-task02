@@ -1,0 +1,30 @@
+.arrow.down {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.custom-form-control {
+  width: 500px; /* Adjust the width as needed */
+  border-radius: 20px;
+  background-color: #e8e8ea;
+  background-image: url("../../assets/icons/search.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+}
+
+/* Custom CSS to remove border around the Navbar toggle icon */
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .custom-form-control {
+    width: 75%;
+  }
+}
