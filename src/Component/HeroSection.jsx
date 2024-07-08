@@ -21,7 +21,7 @@ const HeroSection = () => {
             </p>
             <ReusableButton
               variant="dark"
-              size="lg"
+              size="md"
               onClick={() => console.log("You are Now Shopping!")}
             >
               Show Now
