@@ -1,18 +1,18 @@
-.new-arrivals {
+.topselling {
   background-color: #e8e8ea;
   max-width: 1440px;
   height: 560px;
 }
 
-.custom-newarrival-button {
+.custom-topselling-button {
   margin-top: 75px;
 }
 
 @media (max-width: 576px) {
-  .new-arrivals {
+  .topselling {
     height: 430px;
   }
-  .custom-newarrival-button {
+  .custom-topselling-button {
     margin-top: 60px;
   }
 }

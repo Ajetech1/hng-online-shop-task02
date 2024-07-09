@@ -50,10 +50,7 @@ function NewArrivals() {
             />
           </Col>
         </Row>
-        <Container
-          className="d-flex justify-content-center align-items-center"
-          style={{ height: "40vh" }}
-        >
+        <Container className="d-flex justify-content-center align-items-center custom-newarrival-button ">
           <Row className="w-100">
             <Col
               xs={12}

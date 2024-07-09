@@ -2,7 +2,7 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReusableButton from "./ReusableButton";
-import "../assets/css/NewArrivals.css";
+import "../assets/css/TopSelling.css";
 import Image9 from "../assets/images/image9.png";
 import Image10 from "../assets/images/image10.png";
 import Image11 from "../assets/images/image11.png";
@@ -11,7 +11,7 @@ import { Button, Container, Row, Col } from "react-bootstrap";
 
 function TopSellingCard() {
   return (
-    <div className="new-arrivals">
+    <div className="topselling">
       <h1 className="mt-4 text-center">Top Selling</h1>
       <Container>
         <Row className="mt-4 ">
@@ -49,10 +49,7 @@ function TopSellingCard() {
             />
           </Col>
         </Row>
-        <Container
-          className="d-flex justify-content-center align-items-center"
-          style={{ height: "40vh" }}
-        >
+        <Container className="d-flex justify-content-center align-items-center custom-topselling-button">
           <Row className="w-100">
             <Col
               xs={12}
