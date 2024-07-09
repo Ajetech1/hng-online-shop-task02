@@ -47,8 +47,10 @@ const Footer = () => {
               </a>
             </div>
           </Col>
-          <Col md={2} lg={2}>
-            <h6>COMPANY</h6>
+          <Col md={2} lg={2} xs={4} className="mt-4">
+            <h6>
+              <strong>COMPANY</strong>
+            </h6>
             <ul className="list-unstyled">
               <li>
                 <a href="#" className="text-decoration-none text-dark">
@@ -72,8 +74,10 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={2}>
-            <h6>HELP</h6>
+          <Col md={2} xs={8} className="mt-4">
+            <h6>
+              <strong>HELP</strong>
+            </h6>
             <ul className="list-unstyled">
               <li>
                 <a href="#" className="text-decoration-none text-dark">
@@ -97,8 +101,10 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={2}>
-            <h6>FAQ</h6>
+          <Col md={2} xs={4} className="mt-3">
+            <h6>
+              <strong>FAQ</strong>
+            </h6>
             <ul className="list-unstyled">
               <li>
                 <a href="#" className="text-decoration-none text-dark">
@@ -122,8 +128,10 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={3}>
-            <h6>RESOURCES</h6>
+          <Col md={3} xs={8} className="mt-3">
+            <h6>
+              <strong>RESOURCES</strong>
+            </h6>
             <ul className="list-unstyled">
               <li>
                 <a href="#" className="text-decoration-none text-dark">
