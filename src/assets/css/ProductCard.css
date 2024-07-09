@@ -1,0 +1,21 @@
+/* Base styles for the card */
+.custom-card {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 16px;
+}
+
+/* Styles for small devices */
+@media (max-width: 576px) {
+  .custom-card {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .column-adjust {
+    display: none;
+  }
+  .custom-title {
+    font-size: 11px;
+  }
+}
