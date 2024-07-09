@@ -34,3 +34,18 @@
     font-size: 12px;
   }
 }
+
+/* Styles for small devices */
+@media (max-width: 360px) {
+  .custom-card {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .column-adjust {
+    display: none;
+  }
+  .custom-title {
+    font-size: 11px;
+  }
+}
