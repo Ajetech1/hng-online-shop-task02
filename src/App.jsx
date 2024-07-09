@@ -5,6 +5,7 @@ import MakerType from "./Component/MakerType";
 import NewArrivals from "./Component/NewArrivals";
 import DressStyleGrid from "./Component/DressStyleGrid";
 import TopSellingCard from "./Component/TopSelling";
+import Testimonials from "./Component/Testimonials";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <NewArrivals />
         <DressStyleGrid />
         <TopSellingCard />
+        <Testimonials />
       </div>
     </>
   );

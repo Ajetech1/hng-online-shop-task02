@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Integral-CF";
+  src: url("../fonts/Fontspring-DEMO-integralcf-regular.otf") format("truetype");
+}
+.custom-bg {
+  background-color: #e8e8ea;
+  max-width: 1440px;
+  height: auto;
+}
+
+h3 {
+  font-weight: 700;
+  font-family: "Integral-CF";
+}
