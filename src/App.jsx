@@ -4,6 +4,7 @@ import HeroSection from "./Component/HeroSection";
 import MakerType from "./Component/MakerType";
 import NewArrivals from "./Component/NewArrivals";
 import DressStyleGrid from "./Component/DressStyleGrid";
+import TopSellingCard from "./Component/TopSelling";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <MakerType />
         <NewArrivals />
         <DressStyleGrid />
+        <TopSellingCard />
       </div>
     </>
   );
