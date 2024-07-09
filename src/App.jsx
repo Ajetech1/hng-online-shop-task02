@@ -6,6 +6,8 @@ import NewArrivals from "./Component/NewArrivals";
 import DressStyleGrid from "./Component/DressStyleGrid";
 import TopSellingCard from "./Component/TopSelling";
 import Testimonials from "./Component/Testimonials";
+import NewsletterSubscription from "./Component/NewsletterSubscription";
+import Footer from "./Component/Footer";
 import "./App.css";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <DressStyleGrid />
         <TopSellingCard />
         <Testimonials />
+        <NewsletterSubscription />
+        <Footer />
       </div>
     </>
   );
