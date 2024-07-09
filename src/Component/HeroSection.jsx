@@ -19,13 +19,20 @@ const HeroSection = () => {
               designed to bring out your individuality and cater to your sense
               of style.
             </p>
-            <ReusableButton
-              variant="dark"
-              size="md"
-              onClick={() => console.log("You are Now Shopping!")}
-            >
-              Show Now
-            </ReusableButton>
+            <Container className="d-flex justify-content-center align-items-center ">
+              <Row className="w-100">
+                <Col xs={12} md={3} lg={4} className="">
+                  <ReusableButton
+                    variant="dark"
+                    size="md"
+                    className="rounded-5 custom-button mt-3 mb-3 mx-0 w-100"
+                    onClick={() => console.log("You are Now Shopping!")}
+                  >
+                    Shop Now
+                  </ReusableButton>
+                </Col>
+              </Row>
+            </Container>
             <TotalCustomer />
           </Col>
           <Col md={6} lg={5}>
